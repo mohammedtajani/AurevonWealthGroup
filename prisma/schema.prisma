@@ -1,0 +1,48 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?
+  password      String?
+  role          String    @default("USER") // Was Enum
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  posts         Post[]
+}
+
+model Investor {
+  id              String         @id @default(cuid())
+  name            String
+  email           String         @unique
+  status          String         @default("Pending") // Was Enum
+  investmentValue String?
+  documents       String?  // Comma separated URLs or JSON string
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+}
+
+model Post {
+  id        String     @id @default(cuid())
+  title     String
+  slug      String     @unique
+  content   String
+  published Boolean    @default(false)
+  status    String     @default("DRAFT") // Was Enum
+  authorId  String
+  author    User       @relation(fields: [authorId], references: [id])
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+}
