@@ -1,6 +1,6 @@
 {
   "node": {
-    "40fe9538a13168e88a76f61d1f1320cfa373e450b4": {
+    "40d94e4d6fb8a936d340d3710728af449db9093211": {
       "workers": {
         "app/about/page": {
           "moduleId": 14719,
@@ -22,7 +22,7 @@
       "filename": "client/src/actions/content-actions.ts",
       "exportedName": "getContent"
     },
-    "607c51c85b2b3edb8823214fd404f0d550e60b7079": {
+    "6091da7e63a1a52076c11edcb0b1256faa755a9efb": {
       "workers": {
         "app/about/page": {
           "moduleId": 14719,
@@ -44,7 +44,7 @@
       "filename": "client/src/actions/content-actions.ts",
       "exportedName": "updateContent"
     },
-    "40960244a43291da3c1b534516d0f3dcf1630a4261": {
+    "409b12f1aeb7f8155acdfac23bdee96ca7e138283f": {
       "workers": {
         "app/register/page": {
           "moduleId": 79215,
@@ -61,5 +61,5 @@
     }
   },
   "edge": {},
-  "encryptionKey": "sUGgdADzqh4ux3QtL8zNuNZoxzycsK7lTie+hmrd+g4="
+  "encryptionKey": "CUlj3lt5EGaKYZrL4XxIdHjuJkUrtbY/bIn9vgVsX14="
 }

@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40153de3690f4dae6302f08242581475b8d7a6615b": {
+      "workers": {
+        "app/register/page": {
+          "moduleId": "[project]/client/.next-internal/server/app/register/page/actions.js { ACTIONS_MODULE0 => \"[project]/client/src/actions/investor-workflow.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "registerInvestor",
+          "filename": "client/src/actions/investor-workflow.ts"
+        }
+      },
+      "layer": {
+        "app/register/page": "action-browser"
+      },
+      "exportedName": "registerInvestor",
+      "filename": "client/src/actions/investor-workflow.ts"
+    }
+  },
+  "edge": {}
+}
