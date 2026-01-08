@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-outfit);
+
+  /* Brand Colors */
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+
+  /* UI Colors */
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Animations */
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+
+    to {
+      height: 0;
+    }
+  }
+}
+
+:root {
+  /* Premium Corporate Palette */
+  /* Dark Navy: #0a192f | Gold: #c5a059 | Light: #f8f9fa */
+
+  --background: #f8f9fa;
+  --foreground: #0a192f;
+
+  --primary: #0a192f;
+  /* Deep Navy */
+  --primary-foreground: #ffffff;
+
+  --secondary: #e9ecef;
+  /* Light Gray for secondary actions */
+  --secondary-foreground: #0a192f;
+
+  --accent: #c5a059;
+  /* Gold/Bronze for luxury accents */
+  --accent-foreground: #ffffff;
+
+  --card: #ffffff;
+  --card-foreground: #0a192f;
+
+  --popover: #ffffff;
+  --popover-foreground: #0a192f;
+
+  --muted: #f1f3f5;
+  --muted-foreground: #64748b;
+
+  --border: #e2e8f0;
+  --input: #e2e8f0;
+  --ring: #c5a059;
+
+  --radius: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #020617;
+    /* Very dark navy/black */
+    --foreground: #f8f9fa;
+
+    --primary: #f8f9fa;
+    /* White in dark mode for high contrast */
+    --primary-foreground: #020617;
+
+    --secondary: #1e293b;
+    --secondary-foreground: #f8f9fa;
+
+    --accent: #d4af37;
+    /* Brighter gold for dark mode */
+    --accent-foreground: #020617;
+
+    --card: #0f172a;
+    /* Dark navy card */
+    --card-foreground: #f8f9fa;
+
+    --popover: #0f172a;
+    --popover-foreground: #f8f9fa;
+
+    --muted: #1e293b;
+    --muted-foreground: #94a3b8;
+
+    --border: #1e293b;
+    --input: #1e293b;
+    --ring: #d4af37;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-outfit), sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* Utilities */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}

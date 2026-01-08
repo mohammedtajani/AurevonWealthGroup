@@ -1,0 +1,20 @@
+{
+  "node": {
+    "00f4a773c06c471bd49dd7ccf1ddd240e97aa63337": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": 42121,
+          "async": false,
+          "exportedName": "getDashboardStats",
+          "filename": "admin/src/actions/stats-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "rsc"
+      },
+      "exportedName": "getDashboardStats",
+      "filename": "admin/src/actions/stats-actions.ts"
+    }
+  },
+  "edge": {}
+}

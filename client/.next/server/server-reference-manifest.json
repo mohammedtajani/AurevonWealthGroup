@@ -1,0 +1,65 @@
+{
+  "node": {
+    "40fe9538a13168e88a76f61d1f1320cfa373e450b4": {
+      "workers": {
+        "app/about/page": {
+          "moduleId": 14719,
+          "async": false,
+          "exportedName": "getContent",
+          "filename": "client/src/actions/content-actions.ts"
+        },
+        "app/contact/page": {
+          "moduleId": 9757,
+          "async": false,
+          "exportedName": "getContent",
+          "filename": "client/src/actions/content-actions.ts"
+        }
+      },
+      "layer": {
+        "app/about/page": "rsc",
+        "app/contact/page": "rsc"
+      },
+      "filename": "client/src/actions/content-actions.ts",
+      "exportedName": "getContent"
+    },
+    "607c51c85b2b3edb8823214fd404f0d550e60b7079": {
+      "workers": {
+        "app/about/page": {
+          "moduleId": 14719,
+          "async": false,
+          "exportedName": "updateContent",
+          "filename": "client/src/actions/content-actions.ts"
+        },
+        "app/contact/page": {
+          "moduleId": 9757,
+          "async": false,
+          "exportedName": "updateContent",
+          "filename": "client/src/actions/content-actions.ts"
+        }
+      },
+      "layer": {
+        "app/about/page": "rsc",
+        "app/contact/page": "rsc"
+      },
+      "filename": "client/src/actions/content-actions.ts",
+      "exportedName": "updateContent"
+    },
+    "40960244a43291da3c1b534516d0f3dcf1630a4261": {
+      "workers": {
+        "app/register/page": {
+          "moduleId": 79215,
+          "async": false,
+          "exportedName": "registerInvestor",
+          "filename": "client/src/actions/investor-workflow.ts"
+        }
+      },
+      "layer": {
+        "app/register/page": "action-browser"
+      },
+      "filename": "client/src/actions/investor-workflow.ts",
+      "exportedName": "registerInvestor"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "sUGgdADzqh4ux3QtL8zNuNZoxzycsK7lTie+hmrd+g4="
+}

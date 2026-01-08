@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40960244a43291da3c1b534516d0f3dcf1630a4261": {
+      "workers": {
+        "app/register/page": {
+          "moduleId": 79215,
+          "async": false,
+          "exportedName": "registerInvestor",
+          "filename": "client/src/actions/investor-workflow.ts"
+        }
+      },
+      "layer": {
+        "app/register/page": "action-browser"
+      },
+      "exportedName": "registerInvestor",
+      "filename": "client/src/actions/investor-workflow.ts"
+    }
+  },
+  "edge": {}
+}

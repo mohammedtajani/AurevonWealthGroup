@@ -1,0 +1,22 @@
+{
+    "name": "aurevon-shared",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "db:generate": "prisma generate",
+        "db:push": "prisma db push",
+        "db:migrate": "prisma migrate dev",
+        "db:seed": "npx tsx prisma/seed.ts",
+        "build": "echo 'No build for shared'"
+    },
+    "dependencies": {
+        "@prisma/client": "^5.10.2",
+        "@libsql/client": "^0.15.15",
+        "@prisma/adapter-libsql": "^7.1.0"
+    },
+    "devDependencies": {
+        "prisma": "^5.10.2",
+        "ts-node": "^10.9.2",
+        "tsx": "^4.19.2"
+    }
+}

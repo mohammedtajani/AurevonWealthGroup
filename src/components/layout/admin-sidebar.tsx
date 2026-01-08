@@ -9,6 +9,7 @@ import { Button } from '@/components/ui/button';
 
 const sidebarItems = [
     { name: 'Dashboard', href: '/admin/dashboard', icon: LayoutDashboard },
+    { name: 'Site Content', href: '/admin/content', icon: FileText },
     { name: 'Investors', href: '/admin/investors', icon: Users },
     { name: 'Blog Posts', href: '/admin/posts', icon: FileText },
     { name: 'Settings', href: '/admin/settings', icon: Settings },

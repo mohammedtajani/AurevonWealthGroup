@@ -1,0 +1,186 @@
+{
+  "node": {
+    "401103c7ada880bbb23726e320943ca2e5eb5a2449": {
+      "workers": {
+        "app/content/page": {
+          "moduleId": 46033,
+          "async": false,
+          "exportedName": "getContent",
+          "filename": "admin/src/actions/content-actions.ts"
+        }
+      },
+      "layer": {
+        "app/content/page": "action-browser"
+      },
+      "filename": "admin/src/actions/content-actions.ts",
+      "exportedName": "getContent"
+    },
+    "60c305c6c290d766c21d5c771a9572d5069b370c8c": {
+      "workers": {
+        "app/content/page": {
+          "moduleId": 46033,
+          "async": false,
+          "exportedName": "updateContent",
+          "filename": "admin/src/actions/content-actions.ts"
+        }
+      },
+      "layer": {
+        "app/content/page": "action-browser"
+      },
+      "filename": "admin/src/actions/content-actions.ts",
+      "exportedName": "updateContent"
+    },
+    "00f4a773c06c471bd49dd7ccf1ddd240e97aa63337": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": 42121,
+          "async": false,
+          "exportedName": "getDashboardStats",
+          "filename": "admin/src/actions/stats-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "rsc"
+      },
+      "filename": "admin/src/actions/stats-actions.ts",
+      "exportedName": "getDashboardStats"
+    },
+    "00ba9c03d07979afd4d6012b7ec503d9f024675b81": {
+      "workers": {
+        "app/investors/page": {
+          "moduleId": 55693,
+          "async": false,
+          "exportedName": "getInvestors",
+          "filename": "admin/src/actions/investor-actions.ts"
+        }
+      },
+      "layer": {
+        "app/investors/page": "action-browser"
+      },
+      "filename": "admin/src/actions/investor-actions.ts",
+      "exportedName": "getInvestors"
+    },
+    "40cf8b687c0f7d7bfc86da3ea103d469002cc1b529": {
+      "workers": {
+        "app/investors/page": {
+          "moduleId": 55693,
+          "async": false,
+          "exportedName": "createInvestor",
+          "filename": "admin/src/actions/investor-actions.ts"
+        }
+      },
+      "layer": {
+        "app/investors/page": "action-browser"
+      },
+      "filename": "admin/src/actions/investor-actions.ts",
+      "exportedName": "createInvestor"
+    },
+    "40c783440791246dddc021732337545c02f0dcd7fe": {
+      "workers": {
+        "app/investors/page": {
+          "moduleId": 55693,
+          "async": false,
+          "exportedName": "deleteInvestor",
+          "filename": "admin/src/actions/investor-actions.ts"
+        }
+      },
+      "layer": {
+        "app/investors/page": "action-browser"
+      },
+      "filename": "admin/src/actions/investor-actions.ts",
+      "exportedName": "deleteInvestor"
+    },
+    "40dbb92bf7f9ab7fbe9f080602d36ff5bb6076a5f7": {
+      "workers": {
+        "app/investors/page": {
+          "moduleId": 55693,
+          "async": false,
+          "exportedName": "approveInvestor",
+          "filename": "admin/src/actions/investor-workflow.ts"
+        }
+      },
+      "layer": {
+        "app/investors/page": "action-browser"
+      },
+      "filename": "admin/src/actions/investor-workflow.ts",
+      "exportedName": "approveInvestor"
+    },
+    "409236dd7632e3baf575995fc80646d32226348fa7": {
+      "workers": {
+        "app/investors/page": {
+          "moduleId": 55693,
+          "async": false,
+          "exportedName": "rejectInvestor",
+          "filename": "admin/src/actions/investor-workflow.ts"
+        }
+      },
+      "layer": {
+        "app/investors/page": "action-browser"
+      },
+      "filename": "admin/src/actions/investor-workflow.ts",
+      "exportedName": "rejectInvestor"
+    },
+    "00988297b239235a716955f76d2ce982876b86c261": {
+      "workers": {
+        "app/posts/page": {
+          "moduleId": 4558,
+          "async": false,
+          "exportedName": "getPosts",
+          "filename": "admin/src/actions/post-actions.ts"
+        }
+      },
+      "layer": {
+        "app/posts/page": "action-browser"
+      },
+      "filename": "admin/src/actions/post-actions.ts",
+      "exportedName": "getPosts"
+    },
+    "401a7243c912fe99dbd75010eea599d18f960ec70c": {
+      "workers": {
+        "app/posts/page": {
+          "moduleId": 4558,
+          "async": false,
+          "exportedName": "createPost",
+          "filename": "admin/src/actions/post-actions.ts"
+        }
+      },
+      "layer": {
+        "app/posts/page": "action-browser"
+      },
+      "filename": "admin/src/actions/post-actions.ts",
+      "exportedName": "createPost"
+    },
+    "403082c108704fd8c6c428b838889a0d953332914e": {
+      "workers": {
+        "app/posts/page": {
+          "moduleId": 4558,
+          "async": false,
+          "exportedName": "deletePost",
+          "filename": "admin/src/actions/post-actions.ts"
+        }
+      },
+      "layer": {
+        "app/posts/page": "action-browser"
+      },
+      "filename": "admin/src/actions/post-actions.ts",
+      "exportedName": "deletePost"
+    },
+    "6081c389dbe20a090b638dbff4895ab5c58a5a9d89": {
+      "workers": {
+        "app/posts/page": {
+          "moduleId": 4558,
+          "async": false,
+          "exportedName": "updatePost",
+          "filename": "admin/src/actions/post-actions.ts"
+        }
+      },
+      "layer": {
+        "app/posts/page": "action-browser"
+      },
+      "filename": "admin/src/actions/post-actions.ts",
+      "exportedName": "updatePost"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "Ly/BDCB1+Ie/nnCUoEiF168Nh8BEP6Y4xZtBQoe93iA="
+}

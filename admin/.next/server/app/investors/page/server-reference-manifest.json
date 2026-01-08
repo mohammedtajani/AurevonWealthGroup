@@ -1,0 +1,80 @@
+{
+  "node": {
+    "00ba9c03d07979afd4d6012b7ec503d9f024675b81": {
+      "workers": {
+        "app/investors/page": {
+          "moduleId": 55693,
+          "async": false,
+          "exportedName": "getInvestors",
+          "filename": "admin/src/actions/investor-actions.ts"
+        }
+      },
+      "layer": {
+        "app/investors/page": "action-browser"
+      },
+      "exportedName": "getInvestors",
+      "filename": "admin/src/actions/investor-actions.ts"
+    },
+    "40cf8b687c0f7d7bfc86da3ea103d469002cc1b529": {
+      "workers": {
+        "app/investors/page": {
+          "moduleId": 55693,
+          "async": false,
+          "exportedName": "createInvestor",
+          "filename": "admin/src/actions/investor-actions.ts"
+        }
+      },
+      "layer": {
+        "app/investors/page": "action-browser"
+      },
+      "exportedName": "createInvestor",
+      "filename": "admin/src/actions/investor-actions.ts"
+    },
+    "40c783440791246dddc021732337545c02f0dcd7fe": {
+      "workers": {
+        "app/investors/page": {
+          "moduleId": 55693,
+          "async": false,
+          "exportedName": "deleteInvestor",
+          "filename": "admin/src/actions/investor-actions.ts"
+        }
+      },
+      "layer": {
+        "app/investors/page": "action-browser"
+      },
+      "exportedName": "deleteInvestor",
+      "filename": "admin/src/actions/investor-actions.ts"
+    },
+    "40dbb92bf7f9ab7fbe9f080602d36ff5bb6076a5f7": {
+      "workers": {
+        "app/investors/page": {
+          "moduleId": 55693,
+          "async": false,
+          "exportedName": "approveInvestor",
+          "filename": "admin/src/actions/investor-workflow.ts"
+        }
+      },
+      "layer": {
+        "app/investors/page": "action-browser"
+      },
+      "exportedName": "approveInvestor",
+      "filename": "admin/src/actions/investor-workflow.ts"
+    },
+    "409236dd7632e3baf575995fc80646d32226348fa7": {
+      "workers": {
+        "app/investors/page": {
+          "moduleId": 55693,
+          "async": false,
+          "exportedName": "rejectInvestor",
+          "filename": "admin/src/actions/investor-workflow.ts"
+        }
+      },
+      "layer": {
+        "app/investors/page": "action-browser"
+      },
+      "exportedName": "rejectInvestor",
+      "filename": "admin/src/actions/investor-workflow.ts"
+    }
+  },
+  "edge": {}
+}

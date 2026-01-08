@@ -1,56 +1,83 @@
-# Aurevon Wealth Group - Website & Admin Panel
+# README - Monorepo Structure
 
-## Overview
-Premium semi-static website with a dynamic Admin Panel for Aurevon Wealth Group. Built with Next.js 14, Tailwind CSS, and Firebase.
+This project has been restructured as a monorepo with separate admin and client applications.
 
-## Features
-- **Public**: Home (Parallax/Magnetic), About, Contact, Services.
-- **Admin**: Dashboard, Investor Management (CRUD), Blog (CMS).
-- **Tech Stack**: Next.js (App Router), Firebase (Auth, Firestore), Tailwind CSS, Framer Motion.
+## Project Structure
 
-## Prerequisites
-- Node.js 18+
-- npm
-- Firebase Project (configured with Auth and Firestore)
+```
+AurevonWealthGroup/
+├── admin/          # Admin application (port 3001)
+├── client/         # Client-facing application (port 3000)
+├── shared/         # Shared resources (Prisma schema, database)
+└── package.json    # Root workspace configuration
+```
 
-## Setup
-1. Clone the repository.
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Create `.env.local` based on `.env.example` (see below).
-4. Run development server:
-   ```bash
-   npm run dev
-   ```
+## Quick Start
+
+### Install Dependencies
+```bash
+npm install
+```
+
+This will install dependencies for all workspaces (admin, client, shared).
+
+### Run Development Servers
+
+**Run both apps concurrently:**
+```bash
+npm run dev
+```
+
+**Run admin only (port 3001):**
+```bash
+npm run dev:admin
+```
+
+**Run client only (port 3000):**
+```bash
+npm run dev:client
+```
+
+### Database Setup
+
+See [DB_SETUP.md](./DB_SETUP.md) for detailed database configuration.
+
+```bash
+cd shared
+npx prisma generate
+npx prisma db push
+```
+
+## Applications
+
+### Admin App (localhost:3001)
+- Login page at `/`
+- Dashboard, Investors, Posts, Settings
+- Requires authentication
+- Uses NextAuth with credentials provider
+
+### Client App (localhost:3000)
+- Public-facing website
+- Homepage, About, Services, Contact
+- No authentication required
 
 ## Environment Variables
-Create a `.env.local` file with your Firebase credentials:
-```env
-NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_bucket
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
-```
 
-## Testing
-- **Lint**: `npm run lint`
-- **Unit Tests**: `npm test`
+- **Admin:** `admin/.env.local` - NextAuth secrets, auth URLs
+- **Shared:** `shared/.env` - DATABASE_URL
 
 ## Build
+
 ```bash
-npm run build
-npm start
+npm run build          # Build all workspaces
+npm run build:admin    # Build admin only
+npm run build:client   # Build client only
 ```
 
-## Docker Deployment
-1. Build image: `docker build -t aurevon-web .`
-2. Run container: `docker run -p 3000:3000 aurevon-web`
+## Tech Stack
 
-## Directory Structure
-- `src/app`: Page routes (Public & Admin).
-- `src/components/ui`: Reusable UI components.
-- `src/lib/firebase`: Firebase client and helpers.
+- **Framework:** Next.js 16 (React 19)
+- **Database:** SQLite with Prisma ORM
+- **Auth:** NextAuth v5 (admin only)
+- **Styling:** Tailwind CSS v4
+- **UI:** Custom components with Framer Motion

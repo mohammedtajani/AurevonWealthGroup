@@ -1,0 +1,20 @@
+{
+  "node": {
+    "0094ed7c8b92379c69665e106950b0b924c354fdca": {
+      "workers": {
+        "app/dashboard/page": {
+          "moduleId": "[project]/admin/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/admin/src/actions/stats-actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "getDashboardStats",
+          "filename": "admin/src/actions/stats-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/page": "rsc"
+      },
+      "exportedName": "getDashboardStats",
+      "filename": "admin/src/actions/stats-actions.ts"
+    }
+  },
+  "edge": {}
+}

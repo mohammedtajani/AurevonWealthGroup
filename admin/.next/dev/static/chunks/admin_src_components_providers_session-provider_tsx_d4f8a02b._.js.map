@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/ADMIN/OneDrive/Desktop/Antigravity/AurevonWealthGroup/admin/src/components/providers/session-provider.tsx"],"sourcesContent":["'use client';\r\n\r\nimport { SessionProvider as NextAuthSessionProvider } from 'next-auth/react';\r\n\r\nexport default function SessionProvider({ children }: { children: React.ReactNode }) {\r\n    return <NextAuthSessionProvider>{children}</NextAuthSessionProvider>;\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS,gBAAgB,EAAE,QAAQ,EAAiC;IAC/E,qBAAO,6LAAC,2JAAuB;kBAAE;;;;;;AACrC;KAFwB"}}]
+}

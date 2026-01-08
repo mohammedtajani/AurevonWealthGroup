@@ -1,0 +1,65 @@
+{
+  "node": {
+    "00988297b239235a716955f76d2ce982876b86c261": {
+      "workers": {
+        "app/posts/page": {
+          "moduleId": 4558,
+          "async": false,
+          "exportedName": "getPosts",
+          "filename": "admin/src/actions/post-actions.ts"
+        }
+      },
+      "layer": {
+        "app/posts/page": "action-browser"
+      },
+      "exportedName": "getPosts",
+      "filename": "admin/src/actions/post-actions.ts"
+    },
+    "401a7243c912fe99dbd75010eea599d18f960ec70c": {
+      "workers": {
+        "app/posts/page": {
+          "moduleId": 4558,
+          "async": false,
+          "exportedName": "createPost",
+          "filename": "admin/src/actions/post-actions.ts"
+        }
+      },
+      "layer": {
+        "app/posts/page": "action-browser"
+      },
+      "exportedName": "createPost",
+      "filename": "admin/src/actions/post-actions.ts"
+    },
+    "403082c108704fd8c6c428b838889a0d953332914e": {
+      "workers": {
+        "app/posts/page": {
+          "moduleId": 4558,
+          "async": false,
+          "exportedName": "deletePost",
+          "filename": "admin/src/actions/post-actions.ts"
+        }
+      },
+      "layer": {
+        "app/posts/page": "action-browser"
+      },
+      "exportedName": "deletePost",
+      "filename": "admin/src/actions/post-actions.ts"
+    },
+    "6081c389dbe20a090b638dbff4895ab5c58a5a9d89": {
+      "workers": {
+        "app/posts/page": {
+          "moduleId": 4558,
+          "async": false,
+          "exportedName": "updatePost",
+          "filename": "admin/src/actions/post-actions.ts"
+        }
+      },
+      "layer": {
+        "app/posts/page": "action-browser"
+      },
+      "exportedName": "updatePost",
+      "filename": "admin/src/actions/post-actions.ts"
+    }
+  },
+  "edge": {}
+}

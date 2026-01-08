@@ -1,0 +1,13 @@
+[17:42:26.295] Server  LOG      ○ Compiling middleware ...
+[17:42:35.988] Server  LOG      ✓ Ready in 63754.7s
+[17:52:44.542] Server  LOG      ○ Compiling / ...
+[17:52:47.690] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[17:52:47.690] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[17:52:47.919] Browser WARN    Image with src "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2664&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[17:52:51.038] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[17:52:55.365] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[17:52:55.499] Browser WARN    Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly.
+[17:52:55.499] Browser WARN    Image with src "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2664&auto=format&fit=crop" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[18:03:56.643] Server  LOG      ✓ Compiled in 1562ms
+[18:05:34.586] Server  LOG      ✓ Compiled in 544ms
+[18:06:02.685] Server  LOG      ✓ Compiled in 178ms

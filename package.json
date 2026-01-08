@@ -1,51 +1,43 @@
 {
-  "name": "temp_app",
+  "name": "aurevon-wealth-group",
   "version": "0.1.0",
   "private": true,
+  "workspaces": [
+    "admin",
+    "client",
+    "shared"
+  ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "eslint",
-    "test": "jest",
-    "test:watch": "jest --watch",
-    "postinstall": "prisma generate"
+    "dev": "npm run dev --workspaces",
+    "dev:admin": "npm run dev --workspace=admin",
+    "dev:client": "npm run dev --workspace=client",
+    "build": "npm run build --workspaces",
+    "build:admin": "npm run build --workspace=admin",
+    "build:client": "npm run build --workspace=client",
+    "lint": "npm run lint --workspaces",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:seed": "prisma db seed",
+    "db:studio": "prisma studio",
+    "db:migrate": "tsx scripts/migrate-sqlite-to-postgres.ts",
+    "db:backup": "tsx scripts/backup-database.ts",
+    "db:restore": "tsx scripts/backup-database.ts restore"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "devDependencies": {
+    "prisma": "^5.10.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.0"
   },
   "dependencies": {
-    "@auth/prisma-adapter": "^2.11.1",
     "@libsql/client": "^0.15.15",
     "@prisma/adapter-libsql": "^7.1.0",
     "@prisma/client": "^5.10.2",
+    "@radix-ui/react-tabs": "^1.1.13",
+    "@types/bcryptjs": "^2.4.6",
     "bcryptjs": "^3.0.3",
-    "clsx": "^2.1.1",
-    "dotenv": "^17.2.3",
-    "firebase": "^12.6.0",
-    "framer-motion": "^12.23.26",
-    "lucide-react": "^0.559.0",
-    "next": "16.0.8",
-    "next-auth": "^5.0.0-beta.30",
-    "prisma": "^5.10.2",
-    "react": "19.2.1",
-    "react-dom": "19.2.1",
-    "tailwind-merge": "^3.4.0",
-    "zod": "^4.1.13"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.0",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.0.8",
-    "eslint-config-prettier": "^10.1.8",
-    "jest": "^30.2.0",
-    "jest-environment-jsdom": "^30.2.0",
-    "prettier": "^3.7.4",
-    "tailwindcss": "^4",
-    "ts-node": "^10.9.2",
-    "typescript": "^5"
+    "dotenv": "^17.2.3"
   }
 }
