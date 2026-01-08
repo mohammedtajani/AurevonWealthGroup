@@ -339,3 +339,545 @@ It can also happen if the client has a browser extension installed which messes 
                           >
                   ...
 
+[00:07:42.921] Server  LOG      ✓ Compiled in 5.1s
+[00:07:42.939] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:42.940] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:42.941] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:07:42.943] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:42.944] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__61658dd3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:42.944] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:07:43.199] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:43.201] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__61658dd3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:43.202] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:07:43.206] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:43.207] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:43.208] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:07:43.339] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:43.340] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:43.341] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:07:43.504] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:43.505] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__61658dd3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:43.505] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:07:43.562] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:43.563] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:43.564] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:07:43.713] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:43.714] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:43.715] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:07:43.753] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:43.754] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__61658dd3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:43.755] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:07:43.862] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:43.863] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:43.863] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:07:44.093] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:44.100] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__61658dd3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:44.101] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:07:44.106] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:44.107] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:44.108] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:07:44.199] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:44.200] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:44.201] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:07:44.404] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:44.406] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:44.407] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:07:44.658] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:44.660] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:07:44.665] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:08:09.698] Server  LOG      ✓ Compiled in 309ms
+[00:08:10.513] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:10.514] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:10.515] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:08:10.520] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:10.522] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__61658dd3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:10.523] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:08:10.855] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:10.860] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:10.862] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:08:10.971] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:10.973] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__61658dd3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:10.974] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:08:11.189] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.191] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.191] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:08:11.285] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.285] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__61658dd3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.286] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:08:11.380] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.381] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.382] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:08:11.515] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.517] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.518] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:08:11.563] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.563] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__61658dd3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.564] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:08:11.724] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.726] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.727] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:08:11.818] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.819] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__61658dd3._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.820] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__f6407d37._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:08:11.925] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.926] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:11.926] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:08:12.100] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:12.101] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:12.102] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:08:12.215] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:12.216] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:12.216] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1
+[00:08:12.313] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:12.315] Server  ERROR   C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__d42b20d5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:08:12.315] Server  ERROR   Error fetching site content: PrismaClientInitializationError: 
+Invalid `prisma.siteContent.findUnique()` invocation in
+C:\Users\ADMIN\OneDrive\Desktop\Antigravity\AurevonWealthGroup\client\.next\dev\server\chunks\ssr\[root-of-the-server]__31e0ecde._.js:27:50
+
+  24 const prisma = new __TURBOPACK__imported__module__$5b$externals$5d2f40$prisma$2f$client__$5b$external$5d$__$2840$prisma$2f$client$2c$__cjs$29$__["PrismaClient"]();
+  25 async function getContent(key) {
+  26     try {
+→ 27         const content = await prisma.siteContent.findUnique(
+error: Error validating datasource `db`: the URL must start with the protocol `file:`.
+  -->  schema.prisma:10
+   | 
+ 9 |   provider = "sqlite"
+10 |   url      = env("DATABASE_URL")
+   | 
+
+Validation Error Count: 1

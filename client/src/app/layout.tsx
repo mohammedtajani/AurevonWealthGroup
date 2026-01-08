@@ -56,7 +56,7 @@ export default function RootLayout({
         <html lang="en">
             <body className={`${inter.variable} ${outfit.variable} antialiased bg-background text-foreground font-sans min-h-screen flex flex-col`}>
                 <Navbar />
-                <main className="flex-1 flex flex-col">
+                <main className="flex-1 flex flex-col pb-12">
                     {children}
                 </main>
                 <Footer />
