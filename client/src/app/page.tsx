@@ -49,7 +49,7 @@ export default function Home() {
               </Link>
             </Magnetic>
             <Magnetic>
-              <Link href="/contact" className={buttonVariants({ size: "lg", variant: "outline", className: "border-white text-white hover:bg-white hover:text-primary h-14 px-8 text-lg w-full sm:w-auto backdrop-blur-sm" })}>
+              <Link href="/contact" className={buttonVariants({ size: "lg", variant: "outline", className: "border-white text-white bg-transparent hover:bg-white hover:text-primary h-14 px-8 text-lg w-full sm:w-auto backdrop-blur-sm" })}>
                 Contact Us
               </Link>
             </Magnetic>

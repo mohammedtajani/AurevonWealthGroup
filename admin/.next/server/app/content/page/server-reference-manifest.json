@@ -1,6 +1,6 @@
 {
   "node": {
-    "401103c7ada880bbb23726e320943ca2e5eb5a2449": {
+    "40b62608c36f650c9c728d83c06549d4631ef1865d": {
       "workers": {
         "app/content/page": {
           "moduleId": 46033,
@@ -15,7 +15,7 @@
       "exportedName": "getContent",
       "filename": "admin/src/actions/content-actions.ts"
     },
-    "60c305c6c290d766c21d5c771a9572d5069b370c8c": {
+    "609e2b49fc45979a213622cefd1537798d711cc015": {
       "workers": {
         "app/content/page": {
           "moduleId": 46033,

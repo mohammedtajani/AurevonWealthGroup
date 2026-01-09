@@ -306,7 +306,7 @@ function Home() {
                                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$client$2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["buttonVariants"])({
                                             size: "lg",
                                             variant: "outline",
-                                            className: "border-white text-white hover:bg-white hover:text-primary h-14 px-8 text-lg w-full sm:w-auto backdrop-blur-sm"
+                                            className: "border-white text-white bg-transparent hover:bg-white hover:text-primary h-14 px-8 text-lg w-full sm:w-auto backdrop-blur-sm"
                                         }),
                                         children: "Contact Us"
                                     }, void 0, false, {
